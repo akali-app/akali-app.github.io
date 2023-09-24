@@ -1,10 +1,10 @@
 # Site settings
-title: Antonio Trento, theme Jeky New Age, the start Bootstrap themplate build for jekyll
-email:
-description: A jekyll template for landing pages, portfolio and blogging
+title: Akali App
+email: akali.app.sv@gmail.com
+description: Descubre las maravillosas playas de El Salvador en Akali App!
 
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
-url: "https://jekynewage.github.io" # the base hostname & protocol for your site
+url: "https://akali.app" # the base hostname & protocol for your site
 
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
 data-ad-slot: 
@@ -18,11 +18,13 @@ disqus_account:
 # Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
 social:
   - title: twitter
-    url: https://twitter.com/lantoniotrento
+    url: https://twitter.com/akali.app
   - title: facebook
-    url: https://facebook.com/lantoniotrento
-  - title: google-plus
-    url: https://plus.google.com/+AntoniotrentoIt
+    url: https://facebook.com/akali.app
+  - title: instagram
+    url: https://www.instagram.com/akali.app
+  # - title: google-plus
+  #   url: https://plus.google.com/+AntoniotrentoIt
   #- title: github
   #  url: http://github.com/jekyll
 
@@ -31,7 +33,13 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: [
+  "less",
+  "node_modules",
+  "Gruntfile.js",
+  "package.json",
+  "README.md"
+]
 
 gems: [jekyll-paginate, jekyll-feed]
 # Build settings
